@@ -1,0 +1,23 @@
+# .clang-format
+BasedOnStyle: google
+
+IndentWidth: 4
+UseTab: Never
+
+IncludeBlocks: Merge
+BreakBeforeBraces: Allman
+
+AccessModifierOffset: -4
+
+ColumnLimit: 120
+AlignAfterOpenBracket: Align
+
+# 成员初始化列表
+BreakConstructorInitializers: BeforeComma
+PackConstructorInitializers: Never
+
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: None
+
+AlignTrailingComments: true
