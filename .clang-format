@@ -9,8 +9,16 @@ BreakBeforeBraces: Allman
 
 AccessModifierOffset: -4
 
-ColumnLimit: 120
+ColumnLimit: 80
 AlignAfterOpenBracket: Align
+
+# 参数换行
+BinPackArguments: false
+AllowAllArgumentsOnNextLine: false 
+
+# 形参换行
+BinPackParameters: false
+AllowAllParametersOfDeclarationOnNextLine: false
 
 # 成员初始化列表
 BreakConstructorInitializers: BeforeComma
